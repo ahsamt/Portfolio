@@ -1,6 +1,7 @@
 :root {
   --background_color: #e3e2de;
   --text_color: #29343f;
+  --tech_color: #104d80;
   --custom_shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -31,9 +32,13 @@ h2 {
   font-size: 23px;
   font-weight: 550;
 }
+h3 {
+  font-size: 27px;
+  font-weight: 650;
+}
 
 p {
-  padding: 18px;
+  padding: 20px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
@@ -50,14 +55,69 @@ li > .nav-link {
 }
 
 .technologies {
-  color: #104d80;
+  color: var(--tech_color);
   font-size: 20px;
 }
+.technology_name {
+  font-size: 20px;
+  text-align: center;
+  color: var(--tech_color);
+  font-weight: 600;
+}
+.card-group {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  background-color: #dedfe0;
+  font-family: "Mulish", sans-serif;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 5px;
+  max-width: 410px;
+}
 
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Playfair Display SC", serif;
+  text-align: center;
+  color: var(--tech_color);
+}
+
+.card-img-top {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-text {
+  font-size: 16px;
+  padding: 0px;
+}
+
+.github-button {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: var(--custom_shadow);
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+  background-color: #4e647a;
+  border: var(--tech_color);
+  color: var(--background_color);
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
 #my_photo {
-  max-width: 350px;
+  max-width: 250px;
   display: block;
   margin: 0 auto;
   border-radius: 4px;
   box-shadow: var(--custom_shadow);
+}
+
+#about_me {
+  padding-bottom: 50px;
 }
