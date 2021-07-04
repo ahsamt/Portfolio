@@ -20,14 +20,14 @@ h3 {
 }
 
 h1 {
-  padding: 40px 0px 10px 0px;
+  padding: 35px 0px 3px 0px;
   font-size: 47px;
   font-weight: 850;
   font-stretch: extra-expanded;
 }
 
 h2 {
-  padding: 10px 0px 20px 0px;
+  padding: 7px 0px 20px 0px;
   line-height: 2;
   font-size: 23px;
   font-weight: 550;
@@ -126,5 +126,5 @@ li > .nav-link {
 }
 
 #projects {
-  padding-bottom: 150px;
+  padding-bottom: 130px;
 }
