@@ -20,14 +20,14 @@ h3 {
 }
 
 h1 {
-  padding: 30px 0px 0px 30px;
-  font-size: 45px;
+  padding: 40px 0px 10px 0px;
+  font-size: 47px;
   font-weight: 850;
   font-stretch: extra-expanded;
 }
 
 h2 {
-  padding: 15px 0px 20px 0px;
+  padding: 10px 0px 20px 0px;
   line-height: 2;
   font-size: 23px;
   font-weight: 550;
@@ -100,7 +100,8 @@ li > .nav-link {
   padding: 10px;
   border-radius: 5px;
   box-shadow: var(--custom_shadow);
-  max-width: 150px;
+  max-width: 170px;
+
   display: block;
   margin: 0 auto;
   background-color: #4e647a;
@@ -111,7 +112,7 @@ li > .nav-link {
   font-size: 14px;
 }
 #my_photo {
-  max-width: 250px;
+  max-width: 300px;
   display: block;
   margin: 0 auto;
   border-radius: 4px;
@@ -120,4 +121,10 @@ li > .nav-link {
 
 #about_me {
   padding-bottom: 50px;
+  font-size: 24px;
+  line-height: 2;
+}
+
+#projects {
+  padding-bottom: 150px;
 }
