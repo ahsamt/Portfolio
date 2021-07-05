@@ -1,13 +1,32 @@
-let aboutSection = document.querySelector("#about");
-let projectSection = document.querySelector("#projects");
-let contactSection = document.querySelector("#contact");
+let aboutBlock = document.querySelector("#about_me");
+let projectsBlock = document.querySelector("#projects");
+let contactBlock = document.querySelector("#contact");
 
-function showProjects(event) {
+let aboutLink = document.querySelector("#about_button");
+let projectsLink = document.querySelector("#projects_button");
+let contactLink = document.querySelector("#contact_button");
+
+function displayAbout(event) {
   event.preventDefault();
-  aboutSection.style.display = "none";
-  alert("hi");
+  aboutBlock.style.display = "block";
+  projectsBlock.style.display = "none";
+  contactBlock.style.display = "none";
 }
 
-document
-  .querySelector("#projects_button")
-  .addEventListener("click", showProjects);
+function displayProjects(event) {
+  event.preventDefault();
+  aboutBlock.style.display = "none";
+  contactBlock.style.display = "none";
+  projectsBlock.style.display = "block";
+}
+
+function displayContacts(event) {
+  event.preventDefault();
+  aboutBlock.style.display = "none";
+  projectsBlock.style.display = "none";
+  contactBlock.style.display = "block";
+}
+
+aboutLink.addEventListener("click", displayAbout);
+projectsLink.addEventListener("click", displayProjects);
+contactLink.addEventListener("click", displayContacts);

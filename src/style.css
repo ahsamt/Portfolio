@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  padding: 7px 0px 20px 5px;
+  padding: 7px 0px 20px 0px;
   line-height: 2;
   font-size: 23px;
   font-weight: 580;
@@ -39,8 +39,8 @@ h3 {
 }
 
 p {
-  padding: 30px 0 0 20px;
-  font-size: 18px;
+  padding: 30px 0 20px 0;
+  font-size: 17px;
   line-height: 1.5;
   text-align: center;
   margin: 15px 60px 20px 60px;
@@ -52,7 +52,7 @@ p {
 }
 
 li > .nav-link {
-  margin: 0px 90px 0px 90px;
+  margin: 0px 100px 0px 100px;
 }
 
 .technologies {
@@ -100,6 +100,11 @@ li > .nav-link {
 
   h2 {
     font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    padding: 5px 8px 5px 8px;
   }
   .project-text,
   .project-description {
@@ -166,6 +171,9 @@ li > .nav-link {
   padding-bottom: 130px;
 }
 
+#contact {
+  padding-top: 70px;
+}
 #contact-card {
   max-width: 600px;
   height: 250px;
