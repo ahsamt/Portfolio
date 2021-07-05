@@ -52,7 +52,7 @@ p {
 }
 
 li > .nav-link {
-  margin: 0px 150px 0px 150px;
+  margin: 0px 90px 0px 90px;
 }
 
 .technologies {
@@ -110,6 +110,9 @@ li > .nav-link {
     font-size: 14px;
     padding: 0;
   }
+  li > .nav-link {
+    font-size: 14px;
+  }
 }
 .contact-description {
   font-size: 18px;
@@ -159,6 +162,7 @@ li > .nav-link {
 }
 
 #projects {
+  padding-top: 70px;
   padding-bottom: 130px;
 }
 
