@@ -56,7 +56,7 @@
               <a class="nav-link" href="#projects">My projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact me</a>
+              <a class="nav-link" href="#contact">Contact me</a>
             </li>
           </ul>
         </div>
@@ -91,60 +91,81 @@
       <h3>My projects</h3>
       <br /><br />
 
-      <div class="card-group">
-        <div class="card">
-          <img src="media/weather.png" class="card-img-top" alt="weather app" />
-          <div class="card-body">
-            <h5 class="card-title">Weather App</h5>
-            <p class="card-text">
-              <small class="text-muted">JavaScript | CSS | HTML</small>
-            </p>
-            <p class="card-text">
-              An interactive web application that allows the user to check the
-              weather for the city of their choice, as well as for their current
-              location.
-            </p>
+      <div
+        class="
+          row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3
+        "
+        id="all-project-cards"
+      >
+        <div class="col mb-4">
+          <div class="project">
+            <img
+              src="media/weather.png"
+              class="project-img"
+              alt="weather app"
+            />
+            <div class="project-body">
+              <h5 class="project-title">Weather App</h5>
+              <p class="project-text">
+                <small class="text-muted">JavaScript | CSS | HTML</small>
+              </p>
+              <p class="project-description">
+                An interactive web application that allows the user to check the
+                weather for the city of their choice, as well as for their
+                current location.
+              </p>
+            </div>
+            <div class="project-buttons">
+              <a href="" class="github-button">View on GitHub</a>
+            </div>
           </div>
-          <a href="" class="github-button">View on GitHub</a>
         </div>
-        <div class="card">
-          <img src="media/Auction.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Auction Website</h5>
-            <p class="card-text">
-              <small class="text-muted">Python | Django | CSS | HTML</small>
-            </p>
-            <p class="card-text">
-              An interactive website that allows users to register, post
-              comments, add items to wishlist, list new items, bid on items and
-              close the auction for the items they listed.
-            </p>
+        <div class="col mb-4">
+          <div class="project">
+            <img src="media/Auction.png" class="project-img" alt="..." />
+            <div class="project-body">
+              <h5 class="project-title">Auction Website</h5>
+              <p class="project-text">
+                <small class="text-muted">Python | Django | CSS | HTML</small>
+              </p>
+              <p class="project-description">
+                An interactive website that allows users to register, post
+                comments, add items to wishlist, list new items, bid on items
+                and close the auction for the items they listed.
+              </p>
+            </div>
+            <div class="project-buttons">
+              <a href="" class="github-button">View on GitHub</a>
+            </div>
           </div>
-          <a href="" class="github-button">View on GitHub</a>
         </div>
-        <div class="card">
-          <img src="media/School.png" class="card-img-top" alt="School" />
-          <div class="card-body">
-            <h5 class="card-title">School Fees Calculator</h5>
-            <p class="card-text">
-              <small class="text-muted">Python | Pandas</small>
-            </p>
-            <p class="card-text">
-              A calculator that allows the user to enter all the details related
-              to sending their child to a private school. The user will receive
-              a report in txt format as well as a graph demostrating the
-              variation of costs throughout the years.
-            </p>
+        <div class="col mb-4">
+          <div class="project">
+            <img src="media/School.png" class="project-img" alt="School" />
+            <div class="project-body">
+              <h5 class="project-title">School Fees Calculator</h5>
+              <p class="project-text">
+                <small class="text-muted">Python | Pandas</small>
+              </p>
+              <p class="project-description">
+                A calculator that allows the user to enter all the details
+                related to sending their child to a private school. The user
+                will receive a report in txt format as well as a graph
+                demostrating the variation of costs throughout the years.
+              </p>
+            </div>
+            <div class="project-buttons">
+              <a href="" class="github-button">View on GitHub</a>
+            </div>
           </div>
-          <a href="" class="github-button">View on GitHub</a>
         </div>
       </div>
     </div>
     <div class="container" id="contact">
       <h3>Contact me</h3>
-      <div class="card mt-5" id="contact-card">
-        <div class="card-body">
-          <p class="card-text">
+      <div class="project mt-5" id="contact-card">
+        <div class="project-body">
+          <p class="contact-description">
             I will be happy to answer any questions you may have via email or
             LinkedIn.
           </p>

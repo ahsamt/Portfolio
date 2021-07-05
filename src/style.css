@@ -1,8 +1,8 @@
 :root {
   --background_color: #e3e2de;
   --text_color: #29343f;
-  --tech_color: #104d80;
-  --custom_shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  --tech_color: #264e70;
+  --card_shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
   --button_color: #4e647a;
 }
 
@@ -22,7 +22,7 @@ h3 {
 
 h1 {
   padding: 35px 0px 3px 0px;
-  font-size: 47px;
+  font-size: 45px;
   font-weight: 850;
   font-stretch: extra-expanded;
 }
@@ -31,7 +31,7 @@ h2 {
   padding: 7px 0px 20px 0px;
   line-height: 2;
   font-size: 23px;
-  font-weight: 550;
+  font-weight: 580;
 }
 h3 {
   font-size: 27px;
@@ -59,26 +59,22 @@ li > .nav-link {
   color: var(--tech_color);
   font-size: 20px;
 }
-.technology_name {
-  font-size: 20px;
-  text-align: center;
-  color: var(--tech_color);
-  font-weight: 600;
-}
-.card-group {
-  display: flex;
-  justify-content: space-between;
-}
-.card {
+
+.project,
+.contact-card {
   background-color: #dedfe0;
   font-family: "Mulish", sans-serif;
   padding: 10px;
   font-size: 13px;
   border-radius: 5px;
-  max-width: 410px;
+  max-width: 450px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: var(--card_shadow);
 }
 
-.card-title {
+.project-title {
   font-size: 20px;
   font-weight: 600;
   font-family: "Playfair Display SC", serif;
@@ -86,15 +82,24 @@ li > .nav-link {
   color: var(--tech_color);
 }
 
-.card-img-top {
+.project-img {
   max-width: 150px;
   display: block;
   margin: 0 auto;
 }
 
-.card-text {
+.project-text,
+.project-description {
   font-size: 16px;
   padding: 0px;
+}
+
+.contact-description {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.project-description {
+  height: 170px;
 }
 
 .github-button {
@@ -102,7 +107,6 @@ li > .nav-link {
   border-radius: 5px;
   box-shadow: var(--custom_shadow);
   max-width: 170px;
-
   display: block;
   margin: 0 auto;
   background-color: #4e647a;
@@ -112,12 +116,17 @@ li > .nav-link {
   text-decoration: none;
   font-size: 14px;
 }
+
+.project-buttons {
+  height: 50px;
+  background-color: transparent;
+}
 #my_photo {
   max-width: 300px;
   display: block;
   margin: 0 auto;
   border-radius: 4px;
-  box-shadow: var(--custom_shadow);
+  box-shadow: var(--card_shadow);
 }
 
 #about_me {
@@ -132,13 +141,16 @@ li > .nav-link {
 
 #contact-card {
   max-width: 600px;
+  height: 250px;
   display: block;
   margin: 0 auto;
   margin-bottom: 130px;
   text-align: center;
+  color: var(--tech_color);
 }
 
 #contact-icons a {
   font-size: 40px;
   color: var(--button_color);
+  padding: 5px;
 }
