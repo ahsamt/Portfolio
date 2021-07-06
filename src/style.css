@@ -40,14 +40,11 @@ h3 {
 }
 
 p {
-  padding: 30px 80px 40px 80px;
-  font-size: 17px;
-  line-height: 1.5;
   text-align: center;
-  margin: 15px 60px 20px 60px;
+  line-height: 1.5;
+  font-size: 17px;
   font-family: "Mulish", sans-serif;
 }
-
 footer {
   padding: 10px 0 10px 0;
   font-family: "Mulish", sans-serif;
@@ -66,6 +63,7 @@ li > .nav-link {
 .technologies {
   color: var(--tech_color);
   font-size: 20px;
+  padding: 10px;
 }
 
 .project,
@@ -101,13 +99,17 @@ li > .nav-link {
   font-size: 16px;
   padding: 0px;
 }
-
+.about_description {
+  padding: 50px 140px 60px 140px;
+}
 .contact-description {
   font-size: 18px;
   font-weight: bolder;
+  padding: 60px 40px 30px 40px;
 }
 .project-description {
   height: 170px;
+  padding: 20px;
 }
 
 .github-button {
@@ -159,17 +161,18 @@ li > .nav-link {
 }
 #contact-card {
   max-width: 600px;
-  height: 250px;
+  height: 270px;
   display: block;
   margin: 0 auto;
   text-align: center;
   color: var(--tech_color);
+  padding: 0;
 }
 
 #contact-icons a {
   font-size: 40px;
   color: var(--button_color);
-  padding: 5px;
+  padding: 10px;
   transition: ease-in-out 200ms;
 }
 #contact-icons a:hover {
@@ -193,9 +196,9 @@ li > .nav-link {
     font-size: 18px;
   }
 
-  p {
-    font-size: 14px;
-    padding: 5px 8px 5px 8px;
+  .about_description {
+    padding: 35px;
+    font-size: 16px;
   }
   .project-text,
   .project-description {
@@ -204,9 +207,16 @@ li > .nav-link {
   }
   .contact-description {
     font-size: 14px;
-    padding: 0;
   }
   li > .nav-link {
     font-size: 14px;
+  }
+
+  #projects {
+    padding-top: 40px;
+  }
+
+  #contact {
+    padding-top: 40px;
   }
 }
