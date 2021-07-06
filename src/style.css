@@ -14,7 +14,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+footer {
   text-align: center;
   margin: 0;
   color: var(--text_color);
@@ -47,12 +48,19 @@ p {
   font-family: "Mulish", sans-serif;
 }
 
-.navbar {
-  background-color: var(--text_color);
+footer {
+  padding: 10px 0 10px 0;
+  font-family: "Mulish", sans-serif;
+  opacity: 70%;
+  color: var(--text_color);
+  font-size: 13px;
 }
-
 li > .nav-link {
   margin: 0px 100px 0px 100px;
+}
+
+.navbar {
+  background-color: var(--text_color);
 }
 
 .technologies {
@@ -93,32 +101,7 @@ li > .nav-link {
   font-size: 16px;
   padding: 0px;
 }
-@media (max-width: 576px) {
-  h1 {
-    font-size: 27px;
-  }
 
-  h2 {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 14px;
-    padding: 5px 8px 5px 8px;
-  }
-  .project-text,
-  .project-description {
-    font-size: 14px;
-    padding: 0;
-  }
-  .contact-description {
-    font-size: 14px;
-    padding: 0;
-  }
-  li > .nav-link {
-    font-size: 14px;
-  }
-}
 .contact-description {
   font-size: 18px;
   font-weight: bolder;
@@ -161,25 +144,24 @@ li > .nav-link {
 }
 
 #about_me {
-  padding-bottom: 50px;
   font-size: 24px;
   line-height: 2;
 }
 
 #projects {
   padding-top: 70px;
-  padding-bottom: 130px;
+  padding-bottom: 60px;
 }
 
 #contact {
   padding-top: 70px;
+  padding-bottom: 335px;
 }
 #contact-card {
   max-width: 600px;
   height: 250px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 130px;
   text-align: center;
   color: var(--tech_color);
 }
@@ -192,4 +174,39 @@ li > .nav-link {
 }
 #contact-icons a:hover {
   color: var(--text_color);
+}
+#github-icon {
+  color: var(--text_color);
+  text-decoration: none;
+  transition: ease-in-out 200ms;
+}
+#github-icon :hover {
+  color: var(--button_color);
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 27px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    padding: 5px 8px 5px 8px;
+  }
+  .project-text,
+  .project-description {
+    font-size: 14px;
+    padding: 0;
+  }
+  .contact-description {
+    font-size: 14px;
+    padding: 0;
+  }
+  li > .nav-link {
+    font-size: 14px;
+  }
 }
