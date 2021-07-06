@@ -7,7 +7,7 @@
 }
 
 body {
-  margin: 60px aut;
+  margin: 60 - 60 px 60px 20px;
   background-color: var(--background_color);
   font-family: "Playfair Display SC", serif;
 }
@@ -22,14 +22,14 @@ footer {
 }
 
 h1 {
-  padding: 35px 0px 3px 0px;
+  padding: 35px 0px 3px;
   font-size: 45px;
   font-weight: 850;
   font-stretch: extra-expanded;
 }
 
 h2 {
-  padding: 7px 0px 20px 0px;
+  padding: 7px 0px 20px;
   line-height: 2;
   font-size: 23px;
   font-weight: 580;
@@ -39,19 +39,24 @@ h3 {
   font-weight: 650;
 }
 
+p,
+footer,
+.project,
+.contact-card {
+  font-family: "Mulish", sans-serif;
+}
+
 p {
   text-align: center;
   line-height: 1.5;
   font-size: 17px;
-  font-family: "Mulish", sans-serif;
 }
 footer {
-  padding: 10px 0 10px 0;
-  font-family: "Mulish", sans-serif;
   opacity: 70%;
   color: var(--text_color);
   font-size: 13px;
 }
+
 li > .nav-link {
   margin: 0px 100px 0px 100px;
 }
@@ -69,7 +74,6 @@ li > .nav-link {
 .project,
 .contact-card {
   background-color: #dedfe0;
-  font-family: "Mulish", sans-serif;
   padding: 10px;
   font-size: 13px;
   border-radius: 5px;
@@ -99,14 +103,17 @@ li > .nav-link {
   font-size: 16px;
   padding: 0px;
 }
+
 .about_description {
-  padding: 50px 140px 60px 140px;
+  padding: 40px 140px 20px 140px;
 }
+
 .contact-description {
   font-size: 18px;
   font-weight: bolder;
   padding: 60px 40px 30px 40px;
 }
+
 .project-description {
   height: 170px;
   padding: 20px;
@@ -147,17 +154,18 @@ li > .nav-link {
 
 #about_me {
   font-size: 24px;
-  line-height: 2;
 }
 
 #projects {
   padding-top: 70px;
-  padding-bottom: 60px;
+}
+
+#all-project-cards {
+  padding-bottom: 45px;
 }
 
 #contact {
   padding-top: 70px;
-  padding-bottom: 335px;
 }
 #contact-card {
   max-width: 600px;
@@ -166,7 +174,7 @@ li > .nav-link {
   margin: 0 auto;
   text-align: center;
   color: var(--tech_color);
-  padding: 0;
+  margin-bottom: 290px;
 }
 
 #contact-icons a {
