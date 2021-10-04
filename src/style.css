@@ -94,6 +94,8 @@ li > .nav-link {
 
 .project-img {
   max-width: 150px;
+  height: 150px;
+  padding-bottom: 8px;
   display: block;
   margin: 0 auto;
 }
